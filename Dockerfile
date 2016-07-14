@@ -14,7 +14,7 @@ USER	hubot
 WORKDIR /hubot
 
 # install hubot
-RUN yo hubot --owner="trriplejay" --name="botler" --description"imperialchat's counterpart" --defaults
+RUN yo hubot --owner="you" --name="hubot" --description"chatbot" --defaults
 
 # run hubot
 CMD bin/hubot
