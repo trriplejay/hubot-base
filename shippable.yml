@@ -3,7 +3,9 @@ language: none
 build:
   ci:
     - docker build -t trriplejay/hubot-base:latest .
-    - docker push trriplejay/hubot-base:latest
+
+  on_success:
+    - docker push trriplejay/hubot-base:latest    
 
 integrations:
   hub:
